@@ -1,6 +1,6 @@
 {
     "name": "megaobjects/laravel-log-enhancer",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Faisal Ijaz",
