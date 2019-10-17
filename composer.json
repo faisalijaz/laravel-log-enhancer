@@ -1,0 +1,24 @@
+{
+    "name": "root/laravel-log-enhancer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Faisal Ijaz",
+            "email": "se.faisalijaz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "megaobjects\\LaravelLogEnhancer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "megaobjects\\LaravelLogEnhancer\\LaravelLogEnhancerServiceProvider"
+            ]
+        }
+    }
+}
